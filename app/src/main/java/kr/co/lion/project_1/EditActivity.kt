@@ -45,7 +45,7 @@ class EditActivity : AppCompatActivity() {
         activityEditBinding.apply {
             // 위치값을 가져온다.
             val position = intent.getIntExtra("position", 0)
-            // position 번째 객체를 가져온다.
+            // position번째 객체를 가져온다.
             val content = Util.contentList[position]
 
             editTextEditTitle.setText(content.title)
