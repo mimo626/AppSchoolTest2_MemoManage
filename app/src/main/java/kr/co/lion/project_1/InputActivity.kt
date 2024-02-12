@@ -5,7 +5,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kr.co.lion.project_1.databinding.ActivityInputBinding
-import java.time.LocalDateTime
+import java.time.LocalDate
 
 class InputActivity : AppCompatActivity() {
 
@@ -98,7 +98,7 @@ class InputActivity : AppCompatActivity() {
 
             content.title = editTextWriteTitle.text.toString()
             content.content = editTextWriteContent.text.toString()
-            content.dateAndtime = LocalDateTime.now()
+            content.date = LocalDate.now()
 
             Util.contentList.add(content)
         }

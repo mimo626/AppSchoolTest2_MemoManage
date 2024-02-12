@@ -85,7 +85,7 @@ class InfoActivity : AppCompatActivity() {
 
                 // 공통
                 text = "제목 : ${content.title}\n"
-                append("작성 날짜 : ${content.dateAndtime}\n")
+                append("작성 날짜 : ${content.date}\n")
                 append("내용 : ${content.content}살\n")
             }
         }

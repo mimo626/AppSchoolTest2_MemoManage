@@ -1,10 +1,10 @@
 package kr.co.lion.project_1
 
-import java.time.LocalDateTime
+import java.time.LocalDate
 
 open class Content {
 
     var title = ""
     var content = ""
-    var dateAndtime: LocalDateTime = LocalDateTime.now()
+    var date: LocalDate = LocalDate.now()
 }

@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
             val content = Util.contentList[position]
 
             holder.rowMainBinding.textView.text = "제목: ${content.title}\n"
-            holder.rowMainBinding.textView.append("작성 날짜: ${content.dateAndtime}")
+            holder.rowMainBinding.textView.append("작성 날짜: ${content.date}")
         }
     }
 }
